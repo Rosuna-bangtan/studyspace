@@ -1,0 +1,37 @@
+#quote {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 450px;
+    font-family: ui-monospace;
+  }
+  
+  #mydivheader2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    font-family: ui-monospace;
+  }
+
+.container2 {
+    width: 450px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h6 {
+    color: #007BFF;
+}
+
+blockquote {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #000000;
+}

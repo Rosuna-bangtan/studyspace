@@ -1,0 +1,73 @@
+#mydiv3 {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+    width: 300px;
+  }
+  
+  #mydivheader3 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+      margin: 0;
+      font-family: Arial, sans-serif;
+  }
+  
+  .calendar-container {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 300px;
+  }
+  
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .header h2 {
+      margin: 0;
+  }
+  
+  .days-of-week {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .day {
+      width: 14.28%; /* 100% / 7 days */
+      text-align: center;
+      font-weight: bold;
+  }
+  
+  .calendar-days {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .day-cell {
+      width: 14.28%; /* 100% / 7 days */
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .day-cell:hover {
+      background-color: #e9ecef;
+      cursor: pointer;
+  }
