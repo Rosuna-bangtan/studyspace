@@ -1,0 +1,40 @@
+body5 {
+    display: flex;
+    position: absolute; 
+    top: 5; 
+   left: 100px;
+    height: 100vh;
+    background-color: transparent;
+    margin: 5px;
+    font-family: fantasy;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+}
+
+
+
+.container4 {
+    z-index: 1;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0d6ff;
+}
+
+h7 {
+    margin-top: 20px;
+}
